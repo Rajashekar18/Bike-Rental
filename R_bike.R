@@ -13,6 +13,7 @@ head(bike_data[,11:16]) %>% kable(caption="bike renting(columns:1-5) ",booktabs=
 x = c("ggplot2", "corrgram", "DMwR", "caret", "randomForest", "unbalanced", "C50", "dummies", "e1071", "Information",
       "MASS", "rpart", "gbm", "ROSE", 'sampling', 'DataCombine', 'inTrees')
 lapply(x, require, character.only = TRUE)
+#commit1 addes on R file
  
 #missing values
 missing_val=data.frame(apply(bike_data,2,function(x){sum(is.na(x))}))
