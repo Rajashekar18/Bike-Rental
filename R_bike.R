@@ -26,6 +26,7 @@ missing_val=missing_val[,c(2,1)]
 #outlier analysis
 str(bike_data)
 #added commit1
+#added commit2
 colnames(bike_data)
 summary(bike_data)
 #
