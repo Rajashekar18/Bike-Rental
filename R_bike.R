@@ -18,7 +18,7 @@ lapply(x, require, character.only = TRUE)
 #commit3 added on R file
 #commit4 added on R file
  #Edit commit
- #@1 change
+ #@1 commit
 #missing values new comment
 missing_val=data.frame(apply(bike_data,2,function(x){sum(is.na(x))}))
 missing_val
@@ -30,8 +30,6 @@ missing_val=missing_val[,c(2,1)]
 
 #outlier analysis
 str(bike_data)
-#added commit1
-#added commit2
 colnames(bike_data)
 summary(bike_data)
 #
