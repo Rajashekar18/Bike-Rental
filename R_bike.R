@@ -18,7 +18,7 @@ lapply(x, require, character.only = TRUE)
 #commit3 added on R file
 #commit4 added on R file
  #Edit commit
-#missing values
+#missing values new comment
 missing_val=data.frame(apply(bike_data,2,function(x){sum(is.na(x))}))
 missing_val
 missing_val[2]=colnames(bike_data)
